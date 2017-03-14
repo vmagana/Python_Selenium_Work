@@ -9,13 +9,13 @@ Also goes thru a user registration process by finding different web page element
 This file consist of two unit test one for filling out the form and other is the user registration
 
 The Selenium page object script fills out a web form by finding different web page elements
-Project breakdown:
-basePage.py - options shared by all web pages
-pageLocators.py - contains the elements locators per web page
-testCasesText.py - list which contains a test description
-pageObjects.py - has a method to access each element in the web page
-testPages.py - runs the unit test, each test interacts with one web page element using the same web browser instance
-Can be ran in specified order or default alphabetical order
+Project breakdown:  
+basePage.py - options shared by all web pages  
+pageLocators.py - contains the elements locators per web page  
+testCasesText.py - list which contains a test description  
+pageObjects.py - has a method to access each element in the web page  
+testPages.py - runs the unit test, each test interacts with one web page element using the same web browser instance  
+Can be ran in specified order or default alphabetical order  
 
 These test were verified on a Windows 7 with Firefox browser.
 
