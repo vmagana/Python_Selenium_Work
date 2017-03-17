@@ -11,7 +11,7 @@ Asserts are done after interacting with every element, main checks are counter v
 There could be more checks at every element like comparing text values after entering them, dollar amount total for items being ordered.
 This checkout web page can be driven from information in a file and used to populate the page.
 
-Project breakdown:  
+## Project breakdown:
 basePage.py - options shared by all web pages  
 pageLocators.py - contains the elements locators per web page  
 pageObjects.py - has a method to access each element in the web page  
