@@ -8,7 +8,7 @@ This project is done so it can be maintained pretty easy by modify page elements
 There could be timing issues that need to be fined tuned due to delays in response from web pages.
 The Selenium page object script fills out a web forms by finding different web page elements.
 Asserts are done after interacting with every element, main checks are counter values, url of page and error messages.
-There could be more checks at every element like comparing text values after entering them, dollar amount total for items being ordered
+There could be more checks at every element like comparing text values after entering them, dollar amount total for items being ordered.
 This checkout web page can be driven from information in a file and used to populate the page.
 
 Project breakdown:  
