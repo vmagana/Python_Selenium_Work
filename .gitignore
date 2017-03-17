@@ -1,6 +1,7 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+geckodriver.log
 
 # Folder config file
 Desktop.ini
