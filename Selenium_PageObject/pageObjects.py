@@ -1,13 +1,12 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.alert import Alert
-from selenium.webdriver.support.ui import WebDriverWait
-from basePage import BasePage
-import users, time, os
-from pageLocators import MainPageLocators
-from selenium.webdriver.support.select import Select
-from selenium.common.exceptions import NoSuchElementException
+import os
+import time
+
 from selenium.common.exceptions import NoAlertPresentException
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support.select import Select
+
+from basePage import BasePage
+from pageLocators import MainPageLocators
 
 
 class MainPage(BasePage):
