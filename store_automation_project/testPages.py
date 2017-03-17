@@ -43,10 +43,10 @@ class TestPages(unittest.TestCase):
         self.assertTrue(self.main_page.check_page_loaded(),'Failed to load main page')
 
     def test_add_h_a_kit(self):
-        self.assertTrue(self.main_page.add_h_a_kit(1),'Failed to add health and ancestry kit')
+        self.assertTrue(self.main_page.add_h_a_kit(3),'Failed to add health and ancestry kit')
 
     def test_add_a_kit(self):
-        self.assertTrue(self.main_page.add_a_kit(1),'Failed to add ancestry kit')
+        self.assertTrue(self.main_page.add_a_kit(2),'Failed to add ancestry kit')
 
     def test_add_names_to_kits(self):
         self.assertTrue(self.main_page.add_names_to_kits(['Victor Magana','Julius Caesar','Emiliano Zapata','Maximus Meridius','Don Quixote']),'Failed to set name for kits')
@@ -88,7 +88,7 @@ class TestPages(unittest.TestCase):
         self.assertTrue(self.shipping_page.select_country('United States'),'Failed to set Shipping country')
 
     def test_shipping_method(self):
-        self.assertTrue(self.shipping_page.select_shipping_method('Express (2-3 bus. days) - $41.95'),'Failed to set Shipping method')
+        self.assertTrue(self.shipping_page.select_shipping_method('Express'),'Failed to set Shipping method')
 
     def test_shipping_email(self):
         self.assertTrue(self.shipping_page.enter_email('user@automationforce.com'),'Failed to set Shipping email')

@@ -131,7 +131,7 @@ class ShippingPage(BasePage):
     def select_shipping_method(self,method):
         elem_ship_methods = Select(self.find_element_sub(*self.ShippingPage_Locators.SHIPPING_METHOD)).options
         for item in elem_ship_methods:
-            if item.text == method:
+            if re.search('Express',item.text):
                 item.click()
                 return True
         return False
