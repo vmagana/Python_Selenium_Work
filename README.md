@@ -1,13 +1,13 @@
 # These are a group of Selenium Automation Projects using Python scripts
 
-Selenium Automation using Python scripts displaying web page interaction with various elements like textboxes, drop down menus, submit buttons, checkboxes
+Selenium Automation using Python scripts displaying web page interaction with various elements like text boxes, drop down menus, submit buttons, check boxes
 
 ### Projects
-**Selenium-Normal** = A procedural Python Selenium automation script that fills out a user registration form and a basic user form.
-**Selenium_PageObject** = A Page Object Python Selenium automation script that fills out a basic user form, downloads and uploads a file. It's easier to maintain since its using page object type of layout.
-**store_automation_project** = A Page Object Python Selenium automation script that goes thru a customer order form. It selects a number of desired kits, shipping information, billing information and verification of the full order. This uses the same browser instance to continue the order process and the unit test are configured to run in a specified order because of depency on previous information.
+**Selenium-Normal** = A procedural Python Selenium automation script that fills out a user registration form and a basic user form.<br>
+**Selenium_PageObject** = A Page Object Python Selenium automation script that fills out a basic user form, downloads and uploads a file. It's easier to maintain since its using page object type of layout.<br>
+**store_automation_project** = A Page Object Python Selenium automation script that goes thru a customer order form. It selects a number of desired kits, shipping information, billing information and verification of the full order. This uses the same browser instance to continue the order process and the unit test are configured to run in a specified order because of depency on previous information.<br>
 
-These test were verified on a Windows 7 with Firefox browser.
+These test were verified on a Windows 7 with Firefox browser.<br>
 
 ### Prerequisites
 
