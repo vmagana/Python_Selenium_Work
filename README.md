@@ -1,4 +1,4 @@
-# These are a group of Selenium Automation Projects using Python scripts
+## These are a group of Selenium Automation Projects using Python scripts
 
 Selenium Automation using Python scripts displaying web page interaction with various elements like text boxes, drop down menus, submit buttons, check boxes
 
