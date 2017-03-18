@@ -1,15 +1,15 @@
 # Selenium Store Checkout Automation using Python scripts
 
-Selenium using Python scripts showing basic interaction during a store checkout web form
+Selenium using Python scripts showing basic interaction during a web store checkout form
 
 ## Getting Started
 
-This project is done so it can be maintained pretty easy by modify page elements if needed without rewriting much code.
-There could be timing issues that need to be fined tuned due to delays in response from web pages.
-The Selenium page object script fills out a web forms by finding different web page elements.
+This project is done using Page Objects so its easier to maintain by modifying page elements if needed without rewriting much code.
+The Selenium Python script fills out a web form by finding different elements on a web page.
 Asserts are done after interacting with every element, main checks are counter values, url of page and error messages.
 There could be more checks at every element like comparing text values after entering them, dollar amount total for items being ordered.
 This checkout web page can be driven from information in a file and used to populate the page.
+There could be timing issues that need to be fined tuned due to delays in response from web pages.
 
 ## Project breakdown:
 basePage.py - options shared by all web pages  
