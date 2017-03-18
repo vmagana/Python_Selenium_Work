@@ -7,7 +7,7 @@ Selenium Automation using Python scripts displaying web page interaction with va
 **Selenium_PageObject** = A Page Object Python Selenium automation script that fills out a basic user form, downloads and uploads a file. It's easier to maintain since its using page object type of layout.
 **store_automation_project** = A Page Object Python Selenium automation script that goes thru a customer order form. It selects a number of desired kits, shipping information, billing information and verification of the full order. This uses the same browser instance to continue the order process and the unit test are configured to run in a specified order because of depency on previous information.
 
-These test were verified on a Windows 7 with Firefox browser.  
+These test were verified on a Windows 7 with Firefox browser.
 
 ### Prerequisites
 
