@@ -11,6 +11,7 @@ class MainPageLocators(object):
   KIT_LIST = (By.CLASS_NAME, 'kit-list')
   KIT_LIST_NAMES = (By.NAME, 'name')
   CONTINUE_BUTTON = (By.CSS_SELECTOR, 'input.submit.button-continue')
+  SHIPPING_PAGE_URL = 'https://store.23andme.com/en-us/shipping/'
 
 
 class ShippingPageLocators(object):
@@ -28,12 +29,14 @@ class ShippingPageLocators(object):
   SHIPPING_EMAIL = (By.ID, 'id_email')
   SHIPPING_PHONE = (By.ID, 'id_int_phone')
   SHIPPING_CONTINUE_BUTTON = (By.CSS_SELECTOR, 'input.submit.button-continue')
+  VERIFICATION_PAGE_URL = 'https://store.23andme.com/en-us/verifyaddress/'
 
 class VerificationPageLocators(object):
   VERIFICATION_LOGO = (By.CLASS_NAME, 'verification-summary')
   VERIFICATION_SUGGESTION = (By.CLASS_NAME, 'verify suggestion')
   VERIFICATION_SHIP_UNVERIFIED = (By.CLASS_NAME, 'button-continue use-unverified')
   VERIFICATION_SHIP_VERIFIED = (By.CLASS_NAME, 'button-continue')
+  BILLING_PAGE_URL = 'https://store.23andme.com/en-us/payment/'
 
 
 class BillingPageLocators(object):
@@ -43,6 +46,7 @@ class BillingPageLocators(object):
   BILLLING_CVV_NUMBER = (By.ID, 'cvv')
   BILLING_ADDRESS_SAME = (By.ID, 'id_address_select_0')
   BILLING_CONTINUE_BUTTON = (By.NAME, 'submitPayment')
+  REVIEW_PAGE_URL = 'https://store.23andme.com/en-us/review/'
 
 
 class ReviewPageLocators(object):
